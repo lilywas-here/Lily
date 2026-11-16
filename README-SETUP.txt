@@ -1,18 +1,32 @@
-LILY DELEO PORTFOLIO — STYLE OPTION 4
+LILY DELEO PORTFOLIO
+=====================
 
-Files:
-- index.html: homepage
-- style.css: bold digital-agency styling
-- Lilian_DeLeo_Resume_2026.pdf: keep your existing resume PDF in the same repository root
-- CNAME: keep your existing GitHub Pages custom-domain file
+FILES
+-----
+index.html       Main website page
+style.css        Website styling
+images/          Add your headshot here
 
-TO UPDATE YOUR GITHUB SITE
-1. Download and unzip this package.
-2. In your GitHub repository, upload index.html and style.css to the repository root.
-3. Replace the existing versions of those two files when prompted.
-4. Keep your existing CNAME and resume PDF files.
-5. In index.html, replace YOUR-EMAIL-HERE and YOUR-LINKEDIN-URL with your real contact details.
-6. Optional: replace the abstract graphic in the hero with a headshot or a project image later.
+BEFORE PUBLISHING
+-----------------
+1. Replace YOUR-EMAIL-HERE in index.html with your email address.
+2. Replace YOUR-LINKEDIN-URL with your LinkedIn profile URL.
+3. Add your resume PDF to this folder and name it resume.pdf.
+4. Add your headshot inside the images folder and name it headshot.jpg.
 
-The hero graphic is made with CSS, so there is no extra image file to upload.
-The resume button expects this exact PDF filename: Lilian_DeLeo_Resume_2026.pdf
+GITHUB PAGES
+------------
+1. Upload index.html and style.css to the top level of your Lily repository.
+2. Upload resume.pdf to the same top-level folder.
+3. Upload the images folder with headshot.jpg inside it.
+4. In GitHub, open Settings > Pages.
+5. Set the source to Deploy from a branch.
+6. Select main and /(root), then save.
+
+The website's main page must be named index.html (all lowercase) and must
+be in the publishing folder's top level.
+
+NOTE
+----
+The Coralogix title in this portfolio is shown as Digital Marketing Manager.
+Make sure it matches the title you choose to use on your resume.
